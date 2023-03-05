@@ -1,4 +1,4 @@
 # Lettuce Card
 Descriptive card of a lettuce.
 
-![lettuce card](https://ibb.co/T4T6c1W)
+![lettuce card](https://raw.githubusercontent.com/saracast909/Lettuce-Card/main/card-exercise.png)
