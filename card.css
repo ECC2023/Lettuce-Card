@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(lettuce.png);
+    background-size: cover;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    row-gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+}
+img{
+    width: 160px;
+    height: 160px;
+}
+.card-content{
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+.title{
+    font-weight: bolder;
+    color: #0c3838;
+}
+.clasification{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.clasification p{
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #0c3838;
+}
+.clasification p:nth-child(1){
+    background-color: #90EE90;
+}
+.clasification p:nth-child(2){
+    background-color: #ADD8E6;
+}
+h2{
+    font-weight: bolder;
+    color: #0c3838;
+    font-size: 19px;
+}
+.description{
+    color: #0c3838;
+    font-size: 14px;
+    font-weight: 500;
+}
+.buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-price{
+    color: rgba(12, 56, 56, 50%);
+    font-weight: bold;
+    font-size: 15px;
+}
+.price{
+    color: #0c3838;
+    font-weight: bold;
+    font-size: 30px;
+}
+.button{
+    background-color: #3CB371;
+    padding: 15px 45px;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: #0c3838;
+    font-weight: bold;
+}
